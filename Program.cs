@@ -1,7 +1,13 @@
+using System.Text.Json;
+using coreapp.Models;
+using coreapp.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddControllers();
+builder.Services.AddTransient<JsonFileProductService>();
 
 var app = builder.Build();
 
@@ -21,5 +27,19 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+app.MapControllers();
+
+
+// app.UseEndpoints(endpoints =>
+// {
+//     endpoints.MapControllers();
+//     endpoints.MapGet("/products", async context =>
+//     {
+//         var productService = context.RequestServices.GetRequiredService<JsonFileProductService>();
+//         var products = productService.GetProducts();
+//         // var json = JsonSerializer.Serialize<IEnumerable<Product>>(products);
+//         await context.Response.WriteAsJsonAsync(products);
+//     // });
+// });
 
 app.Run();

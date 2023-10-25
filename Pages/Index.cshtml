@@ -5,6 +5,21 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">COREAPP</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+    @foreach(var product in Model.Products)
+    {
+        <div class="cols">
+        <div class="card">
+            <div class="card-img card-img-top" style="background-image: url('@product.Image');">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">@product.Title</h5>
+            </div>
+        </div>
+        </div>
+    }
 </div>

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/home/saidmtanzania/Desktop/coreapp/wwwroot/data/products.json",
+      "PackagePath": "staticwebassets/data/products.json"
+    },
+    {
       "Id": "/home/saidmtanzania/Desktop/coreapp/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },

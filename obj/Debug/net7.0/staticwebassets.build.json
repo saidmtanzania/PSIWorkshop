@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VTuRjpQTimAjAYUdoPapSQCxjkFHJEnYG97WJb50dE8=",
+  "Hash": "A7LWxpfM+x1pmQFrGLSIVHcrgsAaq/knrOYsaTco3mA=",
   "Source": "coreapp",
   "BasePath": "_content/coreapp",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/saidmtanzania/Desktop/coreapp/wwwroot/data/products.json",
+      "SourceId": "coreapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/saidmtanzania/Desktop/coreapp/wwwroot/",
+      "BasePath": "_content/coreapp",
+      "RelativePath": "data/products.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/data/products.json"
     },
     {
       "Identity": "/home/saidmtanzania/Desktop/coreapp/wwwroot/favicon.ico",
