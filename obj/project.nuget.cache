@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "cgPWXDr4YOTfAkI2utWnROK/EzSlcnEMaVItHRBLjcWzfazLoV5dkNpZMxsCl3epFXxBRGFqRh22JcI9Ax0HVg==",
+  "dgSpecHash": "9uyGlZ52504wEmZaivuH5GqCoNoUqm6qk/hlcp6ElC8dcJAP+h/5dSm1J0nrOdPGyA/TNOcYNg4Va5QnQacPtw==",
   "success": true,
-  "projectFilePath": "/home/saidmtanzania/Desktop/coreapp/coreapp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/saidmtanzania/Documents/PSIWorkshop/PSIWorkshop.csproj",
+  "expectedPackageFiles": [
+    "/home/saidmtanzania/.nuget/packages/microsoft.aspnetcore.openapi/8.0.2/microsoft.aspnetcore.openapi.8.0.2.nupkg.sha512",
+    "/home/saidmtanzania/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/saidmtanzania/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/saidmtanzania/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/saidmtanzania/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/saidmtanzania/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/saidmtanzania/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

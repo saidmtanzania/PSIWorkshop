@@ -1,0 +1,6 @@
+@PSIWorkshop_HostAddress = http://localhost:5032
+
+GET {{PSIWorkshop_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
