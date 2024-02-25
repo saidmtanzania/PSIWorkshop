@@ -1,1 +1,1 @@
-# CoreApplication
+# .NET Core API Learning environment.
